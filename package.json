@@ -4,14 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "ngc"
   },
   "dependencies": {
-    "@angular/core": "^4.1.3",
     "@angular/common": "^4.1.3",
+    "@angular/compiler-cli": "^4.1.3",
+    "@angular/core": "^4.1.3",
     "@angular/forms": "^4.1.3"
   },
   "devDependencies": {
+    "@angular/compiler": "^4.1.3",
     "rollup": "^0.41.6",
     "rxjs": "^5.4.0",
     "typescript": "^2.3.3",
